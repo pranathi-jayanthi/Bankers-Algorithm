@@ -32,12 +32,17 @@ The Banker's Algorithm allocates resources based on maximum requirements, curren
 
 ## Getting Started
 
-1. Download the project files.
-2. Run the multithreaded program using the provided command:
+1. **Compile the Project:**
+   - Use the GCC compiler to compile the project files.
+   ```bash
+   gcc bankers_algorithm.c -o bankersAlgorithm
+   ```
 
-```bash
-python bankers_algorithm.py
-```
+2. **Run the Executable:**
+   - Execute the compiled file.
+   ```bash
+   ./bankersAlgorithm
+   ```
 
 By completing this project, practical experience is gained in working with multithreaded programs, preventing race conditions, and applying the Banker's algorithm for deadlock avoidance in real-world scenarios.
 
