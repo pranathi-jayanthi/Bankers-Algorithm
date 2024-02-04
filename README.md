@@ -35,7 +35,7 @@ The Banker's Algorithm allocates resources based on maximum requirements, curren
 1. **Compile the Project:**
    - Use the GCC compiler to compile the project files.
    ```bash
-   gcc bankers_algorithm.c -o bankersAlgorithm
+   gcc -pthread -o BankersAlgorithm bankers_algorithm.c
    ```
 
 2. **Run the Executable:**
