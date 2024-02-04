@@ -1,4 +1,4 @@
-# Banker's Algorithm Project
+# Banker's Algorithm
 
 ## Introduction
 
